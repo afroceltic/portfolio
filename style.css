@@ -1,0 +1,46 @@
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.main-content {
+    flex: 1 0 auto;
+}
+footer {
+    flex-shrink: 0;
+}
+.grey {
+    background-color: #D8D8D8;
+}
+nav {
+    padding: 15px 0;
+}
+nav a {
+    color: #000;
+    margin: 0 40px;
+}
+.jumbotron-fluid{
+    background-color: #60b1a1;
+    width:100%;
+    padding: 3% 0;
+}
+.jumbotron-fluid h4 {
+    font-weight: 300;
+}
+.jumbotron-fluid h2 {
+    margin: 5% 0;
+}
+.about-me-text {
+    margin-top: 5%;
+}
+.cardSize{
+    height: 90px;
+    width: 90px;
+    margin: 5px 5px 5px 0px
+    
+}
+
+
+
